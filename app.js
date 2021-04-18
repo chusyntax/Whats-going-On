@@ -20,11 +20,27 @@ topStory.innerHTML += innerTopStory;
    var otherStories = document.getElementById('other-top-stories');
    var innerOtherStories = `
    <ul class="collection with-header">
-   <li class="collection-header"><h4>First Names</h4></li>
-   <li class="collection-item">Alvin</li>
-   <li class="collection-item">Alvin</li>
-   <li class="collection-item">Alvin</li>
-   <li class="collection-item">Alvin</li>
+   <li class="collection-header"><h3>Other Top Stories</h3></li>
+   <li class="collection-item">
+   <img class="right-align responsive-img" src='${data.results[1].multimedia[0].url}'>
+   ${data.results[1].title}
+   <small>~${data.results[1].byline}</small>
+   </li>
+   <li class="collection-item">
+   <img class="right-align responsive-img" src='${data.results[2].multimedia[0].url}'>
+   ${data.results[2].title}
+   <small>~${data.results[2].byline}</small>
+   </li>
+   <li class="collection-item">
+   <img class="right-align responsive-img" src='${data.results[3].multimedia[0].url}'>
+   ${data.results[3].title}
+   <small>~${data.results[3].byline}</small>
+   </li>
+   <li class="collection-item">
+   <img class="right-align responsive-img" src='${data.results[4].multimedia[0].url}'>
+   ${data.results[4].title}
+   <small>~${data.results[4].byline}</small>
+   </li>
  </ul>
        
    `;
