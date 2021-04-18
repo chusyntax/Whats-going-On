@@ -2,6 +2,8 @@ fetch('https://api.nytimes.com/svc/topstories/v2/world.json?api-key=pi7mLJnxxrkm
 .then(res => res.json())
 .then(data =>{
 console.log(data)
+
+//Top Story Section
     var topStory = document.getElementById('top-story');
     var innerTopStory = `
     <img class="right-align responsive-img" width="650" src='${data.results[0].multimedia[0].url}'>
@@ -14,13 +16,18 @@ console.log(data)
 topStory.innerHTML += innerTopStory;
 
 
+//Other Stories Section
+   var otherStories = document.getElementById('other-top-stories');
+   var innerOtherStories = `
+   <ul class="collection with-header">
+   <li class="collection-header"><h4>First Names</h4></li>
+   <li class="collection-item">Alvin</li>
+   <li class="collection-item">Alvin</li>
+   <li class="collection-item">Alvin</li>
+   <li class="collection-item">Alvin</li>
+ </ul>
+       
+   `;
 
-    // for(i = 0; i < 4; i++){
-    //   var topStories = document.getElementById('top-stories');
-
-    // topStories.innerHTML +=` 
-    // <div></div>
-    // `;
-    
-    // };
+   otherStories.innerHTML += innerOtherStories;
 });
