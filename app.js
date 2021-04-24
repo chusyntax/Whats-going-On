@@ -1,4 +1,5 @@
-fetch('https://api.nytimes.com/svc/topstories/v2/world.json?api-key=pi7mLJnxxrkmGObWp5KA3eD8ksQV6Tiy')
+function runStoriesSection (){
+  fetch('https://api.nytimes.com/svc/topstories/v2/world.json?api-key=pi7mLJnxxrkmGObWp5KA3eD8ksQV6Tiy')
 .then(res => res.json())
 .then(data =>{
 
@@ -54,3 +55,6 @@ topStory.innerHTML += innerTopStory;
 
    otherStories.innerHTML += innerOtherStories;
 });
+};
+
+runStoriesSection();
