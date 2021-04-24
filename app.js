@@ -31,16 +31,22 @@ topStory.innerHTML += innerTopStory;
    <img class="right-align responsive-img" src='${data.results[1].multimedia[0].url}'>
    ${data.results[1].title}
    <small>~${data.results[1].byline}</small>
+   <br>
+   <span><a href='${data.results[1].url}' target="_blank"><em>Read More >>> </em></a></span>
    </li>
    <li class="collection-item">
    <img class="right-align responsive-img" src='${data.results[2].multimedia[0].url}'>
    ${data.results[2].title}
    <small>~${data.results[2].byline}</small>
+   <br>
+   <span><a href='${data.results[2].url}' target="_blank"><em>Read More >>> </em></a></span>
    </li>
    <li class="collection-item">
    <img class="right-align responsive-img" src='${data.results[3].multimedia[0].url}'>
    ${data.results[3].title}
    <small>~${data.results[3].byline}</small>
+   <br>
+   <span><a href='${data.results[2].url}' target="_blank"><em>Read More >>> </em></a></span>
    </li>
  </ul>
        
