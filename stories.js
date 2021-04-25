@@ -17,7 +17,7 @@ function runStoriesSection (){
     <p>~${data.results[0].byline}</p>
     <span><a href='${data.results[0].url}' target="_blank"><em>Read More >>> </em></a></span>
     <hr>
-
+    
     `
 topStory.innerHTML += innerTopStory;
 
@@ -50,7 +50,7 @@ topStory.innerHTML += innerTopStory;
    <span><a href='${data.results[2].url}' target="_blank"><em>Read More >>> </em></a></span>
    </li>
  </ul>
-       
+ 
    `;
 
    otherStories.innerHTML += innerOtherStories;
