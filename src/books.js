@@ -1,4 +1,4 @@
-function runBooksSection (){
+export function runBooksSection (){
     
     fetch('https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=pi7mLJnxxrkmGObWp5KA3eD8ksQV6Tiy')
 .then(res => res.json())
