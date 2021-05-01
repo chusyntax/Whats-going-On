@@ -33,4 +33,3 @@ topRatedBook.innerHTML += innerTopBook;
 });
 };
 
-runBooksSection();
