@@ -38,7 +38,7 @@ var innerOtherBooks =`
 <div class="col s6 l4">
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator responsive-img" style='width:100%' src='${data.results.books[1].book_image}'>
+      <img class="activator"  src='${data.results.books[1].book_image}'>
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -54,7 +54,7 @@ var innerOtherBooks =`
   <div class="col s6 l4">
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator responsive-img" style='width:100%' src='${data.results.books[1].book_image}'>
+      <img class="activator"  src='${data.results.books[1].book_image}'>
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -70,7 +70,7 @@ var innerOtherBooks =`
   <div class="col s6 l4">
   <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator responsive-img" style='width:100%' src='${data.results.books[1].book_image}'>
+        <img class="activator" src='${data.results.books[1].book_image}'>
       </div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
