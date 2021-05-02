@@ -1,4 +1,4 @@
- export function runBooksSection (){
+  function runBooksSection (){
     
     fetch('https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=pi7mLJnxxrkmGObWp5KA3eD8ksQV6Tiy')
 .then(res => res.json())
@@ -38,7 +38,7 @@ var innerOtherBooks =
 `
 
 <div class='row'>
-<div class="col s6 l4">
+<div class="col s6 l3">
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img"  src='${data.results.books[1].book_image}'>
@@ -54,7 +54,23 @@ var innerOtherBooks =
     </div>
   </div>
 
-  <div class="col s6 l4">
+  <div class="col s6 l3">
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator responsive-img"  src='${data.results.books[1].book_image}'>
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="col s6 l3">
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator"  src='${data.results.books[2].book_image}'>
@@ -70,7 +86,7 @@ var innerOtherBooks =
     </div>
   </div>
 
-  <div class="col s6 l4">
+  <div class="col s6 l3">
   <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src='${data.results.books[3].book_image}'>
@@ -88,7 +104,7 @@ var innerOtherBooks =
 </div>
 
 <div class='row'>
-<div class="col s6 l4">
+<div class="col s6 l3">
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img"  src='${data.results.books[4].book_image}'>
@@ -104,7 +120,23 @@ var innerOtherBooks =
     </div>
   </div>
 
-  <div class="col s6 l4">
+  <div class="col s6 l3">
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator responsive-img"  src='${data.results.books[4].book_image}'>
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="col s6 l3">
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator"  src='${data.results.books[5].book_image}'>
@@ -120,7 +152,7 @@ var innerOtherBooks =
     </div>
   </div>
 
-  <div class="col s6 l4">
+  <div class="col s6 l3">
   <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src='${data.results.books[6].book_image}'>
@@ -140,7 +172,7 @@ var innerOtherBooks =
 </div>
 
 <div class='row'>
-<div class="col s6 l4">
+<div class="col s6 l3">
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img"  src='${data.results.books[7].book_image}'>
@@ -156,7 +188,23 @@ var innerOtherBooks =
     </div>
   </div>
 
-  <div class="col s6 l4">
+  <div class="col s6 l3">
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator responsive-img"  src='${data.results.books[7].book_image}'>
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="col s6 l3">
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator"  src='${data.results.books[8].book_image}'>
@@ -172,7 +220,7 @@ var innerOtherBooks =
     </div>
   </div>
 
-  <div class="col s6 l4">
+  <div class="col s6 l3">
   <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src='${data.results.books[9].book_image}'>
@@ -199,3 +247,4 @@ otherBooks.innerHTML += innerOtherBooks;
 });
 };
 
+runBooksSection()
