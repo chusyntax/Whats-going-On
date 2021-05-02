@@ -56,5 +56,3 @@ topStory.innerHTML += innerTopStory;
    otherStories.innerHTML += innerOtherStories;
 });
 };
-
-runStoriesSection();
