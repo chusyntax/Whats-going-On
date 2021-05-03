@@ -1,4 +1,4 @@
-export function runBooksSection (){
+ function runBooksSection (){
     
     fetch('https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=pi7mLJnxxrkmGObWp5KA3eD8ksQV6Tiy')
 .then(res => res.json())
@@ -44,7 +44,7 @@ var innerOtherBooks =
       <img class="activator responsive-img"  src='${data.results.books[1].book_image}'>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4 display-6">${data.results.books[1].title}<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -60,7 +60,7 @@ var innerOtherBooks =
       <img class="activator responsive-img"  src='${data.results.books[2].book_image}'>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4 display-6">${data.results.books[2].title}<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -76,7 +76,7 @@ var innerOtherBooks =
       <img class="activator"  src='${data.results.books[3].book_image}'>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4 display-6">${data.results.books[3].title}<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -92,7 +92,7 @@ var innerOtherBooks =
         <img class="activator" src='${data.results.books[4].book_image}'>
       </div>
       <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+        <span class="card-title activator grey-text text-darken-4 display-6">${data.results.books[4].title}<i class="material-icons right">more_vert</i></span>
         <p><a href="#">This is a link</a></p>
       </div>
       <div class="card-reveal">
@@ -110,7 +110,7 @@ var innerOtherBooks =
       <img class="activator responsive-img"  src='${data.results.books[5].book_image}'>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">${data.results.books[5].title}<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -126,7 +126,7 @@ var innerOtherBooks =
       <img class="activator responsive-img"  src='${data.results.books[6].book_image}'>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">${data.results.books[6].title}<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -142,7 +142,7 @@ var innerOtherBooks =
       <img class="activator"  src='${data.results.books[7].book_image}'>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">${data.results.books[7].title}<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -158,7 +158,7 @@ var innerOtherBooks =
         <img class="activator" src='${data.results.books[8].book_image}'>
       </div>
       <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+        <span class="card-title activator grey-text text-darken-4">${data.results.books[8].title}<i class="material-icons right">more_vert</i></span>
         <p><a href="#">This is a link</a></p>
       </div>
       <div class="card-reveal">
@@ -178,7 +178,7 @@ var innerOtherBooks =
       <img class="activator responsive-img"  src='${data.results.books[9].book_image}'>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">${data.results.books[9].title}<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -194,7 +194,7 @@ var innerOtherBooks =
       <img class="activator responsive-img"  src='${data.results.books[10].book_image}'>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">${data.results.books[10].title}<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -210,7 +210,7 @@ var innerOtherBooks =
       <img class="activator"  src='${data.results.books[11].book_image}'>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">${data.results.books[11].title}<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -226,7 +226,7 @@ var innerOtherBooks =
         <img class="activator" src='${data.results.books[12].book_image}'>
       </div>
       <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+        <span class="card-title activator grey-text text-darken-4">${data.results.books[12].title}<i class="material-icons right">more_vert</i></span>
         <p><a href="#">This is a link</a></p>
       </div>
       <div class="card-reveal">
@@ -246,3 +246,5 @@ otherBooks.innerHTML += innerOtherBooks;
 
 });
 };
+
+runBooksSection()

@@ -47,7 +47,7 @@ topStory.innerHTML += innerTopStory;
    ${data.results[3].title}
    <small>~${data.results[3].byline}</small>
    <br>
-   <span><a href='${data.results[2].url}' target="_blank"><em>Read More >>> </em></a></span>
+   <span><a href='${data.results[3].url}' target="_blank"><em>Read More >>> </em></a></span>
    </li>
  </ul>
  
