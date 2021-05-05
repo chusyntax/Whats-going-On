@@ -48,8 +48,9 @@ var innerOtherBooks =
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <span class="card-title grey-text text-darken-4">${data.results.books[1].title}<i class="material-icons right">close</i></span>
+      <h6>Author: ${data.results.books[1].author}</h6>
+      <p>Synopsis: ${data.results.books[1].description}</p>
     </div>
     </div>
   </div>
@@ -65,7 +66,8 @@ var innerOtherBooks =
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <h6>Author: ${data.results.books[2].author}</h6>
+      <p>Synopsis: ${data.results.books[2].description}</p>
     </div>
     </div>
   </div>
@@ -81,7 +83,8 @@ var innerOtherBooks =
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <h6>Author: ${data.results.books[3].author}</h6>
+      <p>Synopsis: ${data.results.books[3].description}</p>
     </div>
     </div>
   </div>
@@ -97,7 +100,8 @@ var innerOtherBooks =
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        <h6>Author: ${data.results.books[4].author}</h6>
+      <p>Synopsis: ${data.results.books[4].description}</p>
       </div>
       </div>
     </div>
@@ -115,7 +119,8 @@ var innerOtherBooks =
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <h6>Author: ${data.results.books[5].author}</h6>
+      <p>Synopsis: ${data.results.books[5].description}</p>
     </div>
     </div>
   </div>
@@ -131,7 +136,8 @@ var innerOtherBooks =
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <h6>Author: ${data.results.books[6].author}</h6>
+      <p>Synopsis: ${data.results.books[6].description}</p>
     </div>
     </div>
   </div>
@@ -147,7 +153,8 @@ var innerOtherBooks =
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <h6>Author: ${data.results.books[7].author}</h6>
+      <p>Synopsis: ${data.results.books[7].description}</p>
     </div>
     </div>
   </div>
@@ -163,7 +170,8 @@ var innerOtherBooks =
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        <h6>Author: ${data.results.books[8].author}</h6>
+      <p>Synopsis: ${data.results.books[8].description}</p>
       </div>
       </div>
     </div>
@@ -183,7 +191,8 @@ var innerOtherBooks =
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <h6>Author: ${data.results.books[9].author}</h6>
+      <p>Synopsis: ${data.results.books[9].description}</p>
     </div>
     </div>
   </div>
@@ -199,7 +208,8 @@ var innerOtherBooks =
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <h6>Author: ${data.results.books[10].author}</h6>
+      <p>Synopsis: ${data.results.books[10].description}</p>
     </div>
     </div>
   </div>
@@ -215,7 +225,8 @@ var innerOtherBooks =
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <h6>Author: ${data.results.books[11].author}</h6>
+      <p>Synopsis: ${data.results.books[11].description}</p>
     </div>
     </div>
   </div>
@@ -231,7 +242,8 @@ var innerOtherBooks =
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        <h6>Author: ${data.results.books[12].author}</h6>
+      <p>Synopsis: ${data.results.books[12].description}</p>
       </div>
       </div>
     </div>
