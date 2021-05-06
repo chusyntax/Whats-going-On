@@ -9,13 +9,14 @@
     var topRatedBook = document.getElementById('top-rated-book');
 var innerTopBook =`
 <div class='row'>
-
+<h1 class="center">At #1</h1>
 <div class="col s12 l6">
 <p><img class="center-align responsive-img" src='${data.results.books[0].book_image}'></p>
 </div>
 
 <div class="col s12 l6 right-align">
-<h2>${data.results.books[0].title}</h2>
+
+<h2 class='poppins'>${data.results.books[0].title}</h2>
 <h4>Author: ${data.results.books[0].author}</h4>
 <h4>Synopsis:</h4>
 <p class='flow-text'>${data.results.books[0].description}</p>
@@ -56,6 +57,9 @@ var innerOtherBooks =
       <h6>Author: ${data.results.books[1].author}</h6>
       <p>Synopsis: ${data.results.books[1].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[1].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[1].publisher}">Publisher: </span>
     </div>
     </div>
   </div>
@@ -74,6 +78,9 @@ var innerOtherBooks =
       <h6>Author: ${data.results.books[2].author}</h6>
       <p>Synopsis: ${data.results.books[2].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[2].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[2].publisher}">Publisher: </span>
     </div>
     </div>
   </div>
@@ -92,6 +99,9 @@ var innerOtherBooks =
       <h6>Author: ${data.results.books[3].author}</h6>
       <p>Synopsis: ${data.results.books[3].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[3].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[3].publisher}">Publisher: </span>
     </div>
     </div>
   </div>
@@ -110,6 +120,9 @@ var innerOtherBooks =
         <h6>Author: ${data.results.books[4].author}</h6>
       <p>Synopsis: ${data.results.books[4].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[4].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[4].publisher}">Publisher: </span>
       </div>
       </div>
     </div>
@@ -130,6 +143,9 @@ var innerOtherBooks =
       <h6>Author: ${data.results.books[5].author}</h6>
       <p>Synopsis: ${data.results.books[5].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[5].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[5].publisher}">Publisher: </span>
     </div>
     </div>
   </div>
@@ -148,6 +164,9 @@ var innerOtherBooks =
       <h6>Author: ${data.results.books[6].author}</h6>
       <p>Synopsis: ${data.results.books[6].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[6].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[6].publisher}">Publisher: </span>
     </div>
     </div>
   </div>
@@ -166,6 +185,9 @@ var innerOtherBooks =
       <h6>Author: ${data.results.books[7].author}</h6>
       <p>Synopsis: ${data.results.books[7].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[7].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[7].publisher}">Publisher: </span>
     </div>
     </div>
   </div>
@@ -184,6 +206,9 @@ var innerOtherBooks =
         <h6>Author: ${data.results.books[8].author}</h6>
       <p>Synopsis: ${data.results.books[8].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[8].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[8].publisher}">Publisher: </span>
       </div>
       </div>
     </div>
@@ -206,6 +231,9 @@ var innerOtherBooks =
       <h6>Author: ${data.results.books[9].author}</h6>
       <p>Synopsis: ${data.results.books[9].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[9].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[9].publisher}">Publisher: </span>
     </div>
     </div>
   </div>
@@ -224,6 +252,9 @@ var innerOtherBooks =
       <h6>Author: ${data.results.books[10].author}</h6>
       <p>Synopsis: ${data.results.books[10].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[10].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[10].publisher}">Publisher: </span>
     </div>
     </div>
   </div>
@@ -242,6 +273,9 @@ var innerOtherBooks =
       <h6>Author: ${data.results.books[11].author}</h6>
       <p>Synopsis: ${data.results.books[11].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[11].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[11].publisher}">Publisher: </span>
     </div>
     </div>
   </div>
@@ -260,6 +294,9 @@ var innerOtherBooks =
         <h6>Author: ${data.results.books[12].author}</h6>
       <p>Synopsis: ${data.results.books[12].description}</p>
       <span class="new badge purple" data-badge-caption="${data.results.books[12].rank_last_week}">Last Week: </span>
+      <br>
+      <br>
+      <span class="new badge purple" data-badge-caption="${data.results.books[12].publisher}">Publisher: </span>
       </div>
       </div>
     </div>
