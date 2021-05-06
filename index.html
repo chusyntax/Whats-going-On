@@ -109,7 +109,6 @@
   <div id="top-rated-book"></div>
   <div id="other-books"></div>
 
-
 </div>
 <!--End of Books section-->
 
@@ -125,8 +124,10 @@
      <!--<script src="dist/app.bundle.js"></script> -->
       <script>
         $(document).ready(function(){
+          $('.dropdown-trigger').dropdown();
           $(".sidenav").sidenav();
           $('.materialboxed').materialbox();
+         
           $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true

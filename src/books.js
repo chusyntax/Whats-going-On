@@ -24,6 +24,10 @@ var innerTopBook =`
 <span class="new badge purple" data-badge-caption="${data.results.books[0].weeks_on_list}">Weeks On List: </span>
 <span class="new badge purple" data-badge-caption="${data.results.books[0].publisher}">Publisher: </span>
 
+<br>
+<br>
+<a class="waves-effect waves-light btn orange"><i class="material-icons right">book</i>Buy Now</a>
+<a class="waves-effect waves-light btn orange"><i class="material-icons right">attach_money</i>Buy Now</a>
 
 </div>
 </div>
@@ -65,7 +69,7 @@ var innerOtherBooks =
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">${data.results.books[2].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[2].author}</h6>
       <p>Synopsis: ${data.results.books[2].description}</p>
     </div>
@@ -82,7 +86,7 @@ var innerOtherBooks =
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">${data.results.books[3].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[3].author}</h6>
       <p>Synopsis: ${data.results.books[3].description}</p>
     </div>
@@ -99,7 +103,7 @@ var innerOtherBooks =
         <p><a href="#">This is a link</a></p>
       </div>
       <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+        <span class="card-title grey-text text-darken-4">${data.results.books[4].title}<i class="material-icons right">close</i></span>
         <h6>Author: ${data.results.books[4].author}</h6>
       <p>Synopsis: ${data.results.books[4].description}</p>
       </div>
@@ -118,7 +122,7 @@ var innerOtherBooks =
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">${data.results.books[5].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[5].author}</h6>
       <p>Synopsis: ${data.results.books[5].description}</p>
     </div>
@@ -135,7 +139,7 @@ var innerOtherBooks =
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">${data.results.books[6].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[6].author}</h6>
       <p>Synopsis: ${data.results.books[6].description}</p>
     </div>
@@ -152,7 +156,7 @@ var innerOtherBooks =
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">${data.results.books[7].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[7].author}</h6>
       <p>Synopsis: ${data.results.books[7].description}</p>
     </div>
@@ -169,7 +173,7 @@ var innerOtherBooks =
         <p><a href="#">This is a link</a></p>
       </div>
       <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+        <span class="card-title grey-text text-darken-4">${data.results.books[8].title}<i class="material-icons right">close</i></span>
         <h6>Author: ${data.results.books[8].author}</h6>
       <p>Synopsis: ${data.results.books[8].description}</p>
       </div>
@@ -190,7 +194,7 @@ var innerOtherBooks =
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">${data.results.books[9].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[9].author}</h6>
       <p>Synopsis: ${data.results.books[9].description}</p>
     </div>
@@ -207,7 +211,7 @@ var innerOtherBooks =
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">${data.results.books[10].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[10].author}</h6>
       <p>Synopsis: ${data.results.books[10].description}</p>
     </div>
@@ -224,7 +228,7 @@ var innerOtherBooks =
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">${data.results.books[11].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[11].author}</h6>
       <p>Synopsis: ${data.results.books[11].description}</p>
     </div>
@@ -241,7 +245,7 @@ var innerOtherBooks =
         <p><a href="#">This is a link</a></p>
       </div>
       <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+        <span class="card-title grey-text text-darken-4">${data.results.books[12].title}<i class="material-icons right">close</i></span>
         <h6>Author: ${data.results.books[12].author}</h6>
       <p>Synopsis: ${data.results.books[12].description}</p>
       </div>
