@@ -55,6 +55,7 @@ var innerOtherBooks =
       <span class="card-title grey-text text-darken-4">${data.results.books[1].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[1].author}</h6>
       <p>Synopsis: ${data.results.books[1].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[1].rank_last_week}">Last Week: </span>
     </div>
     </div>
   </div>
@@ -72,6 +73,7 @@ var innerOtherBooks =
       <span class="card-title grey-text text-darken-4">${data.results.books[2].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[2].author}</h6>
       <p>Synopsis: ${data.results.books[2].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[2].rank_last_week}">Last Week: </span>
     </div>
     </div>
   </div>
@@ -89,6 +91,7 @@ var innerOtherBooks =
       <span class="card-title grey-text text-darken-4">${data.results.books[3].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[3].author}</h6>
       <p>Synopsis: ${data.results.books[3].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[3].rank_last_week}">Last Week: </span>
     </div>
     </div>
   </div>
@@ -106,6 +109,7 @@ var innerOtherBooks =
         <span class="card-title grey-text text-darken-4">${data.results.books[4].title}<i class="material-icons right">close</i></span>
         <h6>Author: ${data.results.books[4].author}</h6>
       <p>Synopsis: ${data.results.books[4].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[4].rank_last_week}">Last Week: </span>
       </div>
       </div>
     </div>
@@ -125,6 +129,7 @@ var innerOtherBooks =
       <span class="card-title grey-text text-darken-4">${data.results.books[5].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[5].author}</h6>
       <p>Synopsis: ${data.results.books[5].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[5].rank_last_week}">Last Week: </span>
     </div>
     </div>
   </div>
@@ -142,6 +147,7 @@ var innerOtherBooks =
       <span class="card-title grey-text text-darken-4">${data.results.books[6].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[6].author}</h6>
       <p>Synopsis: ${data.results.books[6].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[6].rank_last_week}">Last Week: </span>
     </div>
     </div>
   </div>
@@ -159,6 +165,7 @@ var innerOtherBooks =
       <span class="card-title grey-text text-darken-4">${data.results.books[7].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[7].author}</h6>
       <p>Synopsis: ${data.results.books[7].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[7].rank_last_week}">Last Week: </span>
     </div>
     </div>
   </div>
@@ -176,6 +183,7 @@ var innerOtherBooks =
         <span class="card-title grey-text text-darken-4">${data.results.books[8].title}<i class="material-icons right">close</i></span>
         <h6>Author: ${data.results.books[8].author}</h6>
       <p>Synopsis: ${data.results.books[8].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[8].rank_last_week}">Last Week: </span>
       </div>
       </div>
     </div>
@@ -197,6 +205,7 @@ var innerOtherBooks =
       <span class="card-title grey-text text-darken-4">${data.results.books[9].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[9].author}</h6>
       <p>Synopsis: ${data.results.books[9].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[9].rank_last_week}">Last Week: </span>
     </div>
     </div>
   </div>
@@ -214,6 +223,7 @@ var innerOtherBooks =
       <span class="card-title grey-text text-darken-4">${data.results.books[10].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[10].author}</h6>
       <p>Synopsis: ${data.results.books[10].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[10].rank_last_week}">Last Week: </span>
     </div>
     </div>
   </div>
@@ -231,6 +241,7 @@ var innerOtherBooks =
       <span class="card-title grey-text text-darken-4">${data.results.books[11].title}<i class="material-icons right">close</i></span>
       <h6>Author: ${data.results.books[11].author}</h6>
       <p>Synopsis: ${data.results.books[11].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[11].rank_last_week}">Last Week: </span>
     </div>
     </div>
   </div>
@@ -248,6 +259,7 @@ var innerOtherBooks =
         <span class="card-title grey-text text-darken-4">${data.results.books[12].title}<i class="material-icons right">close</i></span>
         <h6>Author: ${data.results.books[12].author}</h6>
       <p>Synopsis: ${data.results.books[12].description}</p>
+      <span class="new badge purple" data-badge-caption="${data.results.books[12].rank_last_week}">Last Week: </span>
       </div>
       </div>
     </div>
