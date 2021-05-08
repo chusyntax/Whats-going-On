@@ -44,6 +44,7 @@ var innerOtherBooks =
 
 <div class='row'>
 <div class="col s6 l3">
+<h4 class="center"> #2</h4>
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img"  src='${data.results.books[1].book_image}'>
@@ -65,6 +66,7 @@ var innerOtherBooks =
   </div>
 
   <div class="col s6 l3">
+  <h4 class="center"> #3</h4>
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img"  src='${data.results.books[2].book_image}'>
@@ -86,6 +88,7 @@ var innerOtherBooks =
   </div>
 
   <div class="col s6 l3">
+  <h4 class="center"> #4</h4>
 <div class="card sticky-action">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator"  src='${data.results.books[3].book_image}'>
@@ -107,6 +110,7 @@ var innerOtherBooks =
   </div>
 
   <div class="col s6 l3">
+  <h4 class="center"> #5</h4>
   <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src='${data.results.books[4].book_image}'>
@@ -130,6 +134,7 @@ var innerOtherBooks =
 
 <div class='row'>
 <div class="col s6 l3">
+<h4 class="center"> #6</h4>
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img"  src='${data.results.books[5].book_image}'>
@@ -151,6 +156,7 @@ var innerOtherBooks =
   </div>
 
   <div class="col s6 l3">
+  <h4 class="center"> #7</h4>
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img"  src='${data.results.books[6].book_image}'>
@@ -172,6 +178,7 @@ var innerOtherBooks =
   </div>
 
   <div class="col s6 l3">
+  <h4 class="center"> #8</h4>
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator"  src='${data.results.books[7].book_image}'>
@@ -193,6 +200,7 @@ var innerOtherBooks =
   </div>
 
   <div class="col s6 l3">
+  <h4 class="center"> #9</h4>
   <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src='${data.results.books[8].book_image}'>
@@ -218,6 +226,7 @@ var innerOtherBooks =
 
 <div class='row'>
 <div class="col s6 l3">
+<h4 class="center"> #10</h4>
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img"  src='${data.results.books[9].book_image}'>
@@ -239,6 +248,7 @@ var innerOtherBooks =
   </div>
 
   <div class="col s6 l3">
+  <h4 class="center"> #11</h4>
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img"  src='${data.results.books[10].book_image}'>
@@ -260,6 +270,7 @@ var innerOtherBooks =
   </div>
 
   <div class="col s6 l3">
+  <h4 class="center"> #12</h4>
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator"  src='${data.results.books[11].book_image}'>
@@ -281,6 +292,7 @@ var innerOtherBooks =
   </div>
 
   <div class="col s6 l3">
+  <h4 class="center"> #13</h4>
   <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src='${data.results.books[12].book_image}'>

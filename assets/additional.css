@@ -6,6 +6,9 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 
 */
+body{
+    background: url(./purple.png);
+}
 
 .fredericka{
     font-family: 'Fredericka the Great', cursive;
