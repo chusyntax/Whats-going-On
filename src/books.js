@@ -3,7 +3,7 @@
     fetch('https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=pi7mLJnxxrkmGObWp5KA3eD8ksQV6Tiy')
 .then(res => res.json())
 .then(data =>{
-    console.log(data);
+    
 
     //First book
     var topRatedBook = document.getElementById('top-rated-book');
