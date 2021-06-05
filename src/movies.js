@@ -17,9 +17,6 @@ var reviewers = document.getElementById('reviewers');
         <div class="card-content">
           <p>${data.results[0].bio}</p>
         </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
       </div>
     </div>
   </div>
@@ -33,9 +30,6 @@ var reviewers = document.getElementById('reviewers');
     <div class="card-stacked">
       <div class="card-content">
         <p>${data.results[2].bio}</p>
-      </div>
-      <div class="card-action">
-        <a href="#">This is a link</a>
       </div>
     </div>
   </div>
