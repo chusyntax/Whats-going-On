@@ -21,6 +21,7 @@
 
       <!--Header-->
    <header>
+     
     <nav class="nav-wrapper transparent">
       <div class="container">
       
@@ -29,20 +30,21 @@
           <i class="material-icons black-text">menu</i>
         </a>
        <ul class="right hide-on-med-and-down">
-         <li><a href="#home" class="black-text">Home</a></li>
-         <li><a href="#about" class="black-text">Top Stories</a></li>
-         <li><a href="#team" class="black-text">Books</a></li>
-         <li><a href="#contact" class="black-text">Critics</a></li>
+         <li><a href="#" class="black-text">Home</a></li>
+         <li><a href="#top-stories" class="black-text">Top Stories</a></li>
+         <li><a href="#book" class="black-text">Books</a></li>
+         <li><a href="#critics" class="black-text">Critics</a></li>
          </ul>
         
 
       </div>
 </nav>
+
 <ul class="sidenav scrollspy" id="mobile-links">
- <li><a href="#home">Home</a></li>
- <li><a href="#about">Top Stories</a></li>
- <li><a href="#team">Books</a></li>
- <li><a href="#contact">Critics</a></li>
+ <li><a href="#">Home</a></li>
+ <li><a href="#top-stories">Top Stories</a></li>
+ <li><a href="#book">Books</a></li>
+ <li><a href="#critics">Critics</a></li>
 </ul>
 </header>
 <br>
@@ -80,10 +82,10 @@
 
 <!--Top Stories Section-->
 <div class="container">
-  <h1 class='center'>Today's Top Stories</h1>
+  <h1 class='center '>Today's Top Stories</h1>
   <hr>
 <br>
-<div id="top-stories">
+<div id="top-stories" class = "section scrollspy">
   <div class="row">
     <div id="top-story" class="col s12 l6"></div>
 
@@ -95,14 +97,14 @@
 
 <!--Books section-->
 <div class="container">
-  <h1 class="center-align">New York Time's Best Sellers</h1>
+  <h1 class="center-align" >New York Time's Best Sellers</h1>
   <hr>
   <div class="row">
     <div class="col s12 l6" data-aos="fade-left">
       <img class="right-align responsive-img" width="650" src="assets/books-img.png">
           </div>
             <div class="col s12 l6 center-align" data-aos="fade-right">
-              <h1>World's Best Books</h1>
+              <h1 id='book' class='section scrollspy'>World's Best Books</h1>
               <p class='flow-text'>Discover the best selling books on the New York Times. Find out their author, more info and even buy them from straight from Amazon.</p>
              </div>
   </div>
@@ -120,7 +122,7 @@
   <div class="row">
     <div class="col s12 l6" data-aos="fade-right">
       
-      <p class='flow-text'>Here are the full-time reviewers for The New York Times. Here you can view their image and also learn more about them and their background.</p>
+      <p id='critics'class='flow-text section scrollspy'>Here are the full-time reviewers for The New York Times. Here you can view their image and also learn more about them and their background.</p>
   
         </div>
         <div class="col s12 l6" data-aos="fade-left">
@@ -147,7 +149,7 @@
           $('.dropdown-trigger').dropdown();
           $(".sidenav").sidenav();
           $('.materialboxed').materialbox();
-         
+          $('.scrollspy').scrollSpy();
           $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
