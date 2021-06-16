@@ -1,4 +1,4 @@
- function runReviewersSection (){
+ export function runReviewersSection (){
  
  fetch('https://api.nytimes.com/svc/movies/v2/critics/full-time.json?api-key=pi7mLJnxxrkmGObWp5KA3eD8ksQV6Tiy')
 .then(res => res.json())
@@ -41,8 +41,5 @@ var reviewers = document.getElementById('reviewers');
     `;
 
 reviewers.innerHTML += innerReviewers;
-
-
-
 });
- }
+ };
